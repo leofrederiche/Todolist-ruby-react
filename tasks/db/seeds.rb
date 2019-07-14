@@ -6,10 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Task.create(title: 'Criar um icone/logo para o Sistema', done: true)
-Task.create(title: 'Definir o nome do sistema', done: false)
-Task.create(title: 'Definir Planos e Oferecimentos', done: false)
-Task.create(title: 'Criar Mokup', done: false)
-Task.create(title: 'Realizar pesquisa virtual', done: false)
-Task.create(title: 'Realizar pesquisa de campo', done: false)
-Task.create(title: 'Criar estrutura do sistema', done: false)
+Task.create(title: 'Todo task', done: false)
+Task.create(title: 'Done task', done: true)
+Task.create(title: 'Delete me!', done: false)
